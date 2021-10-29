@@ -1,0 +1,32 @@
+
+
+body {
+    margin:0;
+}
+
+
+
+h1 {
+    color:white;
+    text-align:center;
+    margin:0;
+    padding:2%;
+    font-family:monospace;
+    font-size:2.5rem;
+}
+
+nav > p {
+    margin:2%;
+}
+
+.navbar {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    background:black;
+    padding-left:40%;
+    color:white;
+    height:100%;
+
+}

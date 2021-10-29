@@ -6,14 +6,16 @@ html, body {
   padding: 0;
 }
 
-h1 {
-  color: white;
-  text-align: center;
-  height: 5vh;
-  margin: 0;
-  padding: 2%;
-  font-family: monospace;
-  font-size: 2.5rem;
+iframe {
+  display: block;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+iframe > #document > html > body {
+  height: 1%;
 }
 
 .container {
@@ -33,7 +35,7 @@ h1 {
       -ms-flex-pack: start;
           justify-content: flex-start;
   background: salmon;
-  height: 70vh;
+  height: 80vh;
   overflow: scroll;
 }
 
@@ -62,26 +64,6 @@ a > img {
   margin: 5%;
   width: 10%;
   height: 20%;
-}
-
-nav > p {
-  margin: 2%;
-  color: white;
-}
-
-.navbar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  background: black;
-  padding-left: 40%;
 }
 
 .footer {

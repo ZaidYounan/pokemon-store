@@ -11,15 +11,17 @@ html, body {
     padding:0;
 }
 
-h1 {
-    color:white;
-    text-align:center;
-    height:5vh;
-    margin:0;
-    padding:2%;
-    font-family:monospace;
-    font-size:2.5rem;
+iframe {
+    display:block;
+    width:100%;
+    height:fit-content;
 }
+
+iframe > #document > html > body {
+    height:1%;
+}
+
+
 
 .container {
     height: 100%;
@@ -31,7 +33,7 @@ h1 {
     flex-flow: row wrap;
     justify-content:flex-start;
     background:salmon;
-    height:70vh;
+    height:80vh;
     overflow:scroll;
 }
 
@@ -51,18 +53,7 @@ a > img {
     height: 20%;
 }
 
-nav > p {
-    margin:2%;
-    color:white;
-}
 
-.navbar {
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-    background:black;
-    padding-left:40%;
-}
 
 .footer {
     display:flex;
