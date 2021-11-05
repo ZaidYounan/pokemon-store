@@ -71,5 +71,31 @@ nav > p {
     height:25vh;
     background:rgb(43, 43, 109);
     color:white;
-
+    padding:2%;
 }
+
+@media screen and (max-width:960px) {
+    .navbar {
+        padding:0;
+    }
+}
+
+@media screen and (max-width:540px) {
+    h1 {
+        font-size:1.5rem;
+    }
+}
+
+@media screen and (max-width:420px) {
+
+    h1 {
+        font-size:2rem;
+    }
+
+    .navbar {
+        padding:0;
+        flex-direction:column;
+        text-align:center;
+    }
+}
+
