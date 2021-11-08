@@ -97,5 +97,16 @@ nav > p {
         flex-direction:column;
         text-align:center;
     }
+
+    .cards {
+        width: 20%;
+        height: 40%;
+    }
+
+    a > img {
+        border-radius:0.5em;
+    }
+
+
 }
 
